@@ -90,17 +90,23 @@ function sayHello(){
 
 sayHello()
 
+// ------------------------------
+
 function log(firstName, lastName){
     console.log("hello du bist eingeloge" + firstName + lastName); // funktion mit parameter
 }
 
 log("Magda", "Cale")
 
+// ----------------------------------
+
 function addMe (num1, num2){
     console.log(num1 * num2);
 }
 
 addMe(3, 5)
+
+// --------------------------------------
 
 let num5 = 5;
 let num6 = 10;
