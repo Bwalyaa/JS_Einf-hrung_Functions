@@ -33,7 +33,7 @@ console.log("B" > "a");
 
 // # Elemente Selektieren
 
-// - getElementById
+// - getElementById // nur für id's
 
 const mainHeadline = document.getElementById("main-headline")
 console.log(mainHeadline);

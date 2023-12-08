@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+    gap: 4rem;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    background-color: red;
+}
+
+.ballOne{
+    background: linear-gradient(45deg, green 50%, purple 50%);
+}
+
+.ballTwo{
+    background: linear-gradient(45deg, grey 50%, rgba(255, 204, 0, 0.584) 50%);
+}
+
+.ballThree{
+    background: linear-gradient(45deg, black 50%, orange 50%);
+}
+
+.ballFour{
+    background: linear-gradient(45deg, rgb(2, 2, 135) 50%, rgb(55, 193, 240) 50%);
+}
